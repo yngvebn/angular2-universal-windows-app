@@ -28,6 +28,5 @@ export class App {
   url: string = 'https://github.com/preboot/angular2-universal-windows-app';
 
   constructor(public api: Api) {
-    console.log('app 2');
   }
 }
