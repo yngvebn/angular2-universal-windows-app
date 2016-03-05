@@ -61,12 +61,16 @@
     <Content Include="index.html" />
     <Content Include="images\**\*" />
     <Content Include="dist\**\*" />
+    <Content Include="src\**\*" />
     <None Include="angular2-universal-windows-app_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4a0dddb5-7a95-4fbf-97cc-616d07737a77}" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+      <TypeScriptEnabled>false</TypeScriptEnabled>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
        that target and the DisableFastUpToDateCheck PropertyGroup. 
        Other similar extension points exist, see Microsoft.Common.targets.
