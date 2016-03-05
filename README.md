@@ -81,6 +81,8 @@ It will build the files to the /dist folder and watch for changes.
 Launch Visual Studio and open the file `angular2-universal-windows-app.sln` at the root of the project.
 Then launch the application with F5 (or using the menu debug > start debugging).
 
+![app](https://cloud.githubusercontent.com/assets/265378/13549047/0e7d897c-e2fe-11e5-9885-e9b105ce0645.jpg)
+
 ## Developing
 
 ### Build files
