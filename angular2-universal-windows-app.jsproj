@@ -61,7 +61,10 @@
     <Content Include="index.html" />
     <Content Include="images\**\*" />
     <Content Include="dist\**\*" />
+    <Content Include="package.json" />
     <Content Include="src\**\*" />
+    <Content Include="typings\winjs\winjs.d.ts" />
+    <Content Include="webpack.config.js" />
     <None Include="angular2-universal-windows-app_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -69,7 +72,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
-      <TypeScriptEnabled>false</TypeScriptEnabled>
+    <TypeScriptEnabled>false</TypeScriptEnabled>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
        that target and the DisableFastUpToDateCheck PropertyGroup. 

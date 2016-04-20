@@ -17,8 +17,8 @@ import {About} from "./components/about/about";
   providers: [...FORM_PROVIDERS, Api],
   directives: [...ROUTER_DIRECTIVES],
   pipes: [],
-  styles: [require('./app.scss')],
-  template: require('./app.html')
+  styles: ['./app.scss'],
+  template: './app.html'
 })
 @RouteConfig([
   {path: '/', component: Home, name: 'Home'},

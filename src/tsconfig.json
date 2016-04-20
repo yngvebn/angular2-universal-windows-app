@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es5",
     "module": "commonjs",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -8,7 +8,8 @@
     "moduleResolution": "node"
   },
   "exclude": [
-    "node_modules"
+    "../node_modules",
+    "../typings"
   ],
   "compileOnSave": false,
   "buildOnSave": false
